@@ -45,3 +45,63 @@ Alerts and Feedback: Implement a system to provide feedback. If the tool detects
 4. User Interface:
 User-Friendly Design: Ensure the tool has an intuitive interface. Users should be able to start/stop the analysis easily.
 Visual Feedback: Display the live video feed alongside the analyzed posture. Highlight any deviations or abnormalities.
+
+
+
+
+
+
+There are several research studies that have explored the use of computer vision for ataxia diagnosis. One such study is “Auto-Gait:
+ Automatic Ataxia Risk Assessment with Computer Vision on Gait Task Videos” 1. The study investigates whether participants with ataxia-
+ specific gait characteristics can be detected and the severity of ataxia can be assessed using computer vision. The researchers created 
+ a dataset of 155 videos from 89 participants, 24 controls, and 65 diagnosed with (or are pre-manifest) spinocerebellar ataxias (SCAs),
+  performing the gait task of the Scale for the Assessment and Rating of Ataxia (SARA) from 11 medical sites located in 8 different states
+   across the United States. They developed a computer vision pipeline to detect, track, and separate out the participants from their 
+   surroundings and construct several features from their body pose coordinates to capture gait characteristics like step width, step 
+   length, swing, stability, speed, etc. Their risk-prediction model achieved 83.06% accuracy and an 80.23% F1 score. Similarly, their 
+   severity-assessment model achieved a mean absolute error (MAE) score of 0.6225 and a Pearson’s correlation coefficient score of 0.7268 1.
+
+However, it is important to note that these studies are still in their early stages and more research is needed before these tools can be used
+ for clinical diagnosis 23.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo "# Ataxia-Disorder-Assistive-Tool" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ManishThorat9/Ataxia-Disorder-Assistive-Tool.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/ManishThorat9/Ataxia-Disorder-Assistive-Tool.git
+git branch -M main
+git push -u origin main
